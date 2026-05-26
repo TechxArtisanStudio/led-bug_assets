@@ -1,10 +1,10 @@
 {
   "base_url": "https://assets.led-bug.com",
-  "generated_at": "2026-05-26T09:15:57Z",
-  "commit": "7b75401",
+  "generated_at": "2026-05-26T10:08:18Z",
+  "commit": "f9a603d",
   "stats": {
-    "total": 65,
-    "images": 64,
+    "total": 89,
+    "images": 88,
     "data": 1
   },
   "categories": [
@@ -12,6 +12,444 @@
       "id": "images",
       "title": "Images",
       "assets": [
+        {
+          "name": "part-1-concept-design-draft",
+          "path": "images/blog/coloured-towers/part-1-concept-design-draft.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-concept-design-draft.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 63470,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-1-concept-design-draft images/blog/coloured-towers/part-1-concept-design-draft.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-1-concept-design-draft.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-concept-design-draft.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1241,
+          "height": 608,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-1-concept-design-draft.webp",
+          "thumb_bytes": 18786,
+          "thumb_width": 560,
+          "thumb_height": 274
+        },
+        {
+          "name": "part-1-dave-bramston-artworks",
+          "path": "images/blog/coloured-towers/part-1-dave-bramston-artworks.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-dave-bramston-artworks.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 26134,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-1-dave-bramston-artworks images/blog/coloured-towers/part-1-dave-bramston-artworks.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-1-dave-bramston-artworks.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-dave-bramston-artworks.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 780,
+          "height": 265,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-1-dave-bramston-artworks.webp",
+          "thumb_bytes": 16230,
+          "thumb_width": 560,
+          "thumb_height": 190
+        },
+        {
+          "name": "part-1-installation-team-photo",
+          "path": "images/blog/coloured-towers/part-1-installation-team-photo.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-installation-team-photo.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 92566,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-1-installation-team-photo images/blog/coloured-towers/part-1-installation-team-photo.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-1-installation-team-photo.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-installation-team-photo.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1080,
+          "height": 1440,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-1-installation-team-photo.webp",
+          "thumb_bytes": 39234,
+          "thumb_width": 560,
+          "thumb_height": 747
+        },
+        {
+          "name": "part-1-journey-in-colour-exhibition-01",
+          "path": "images/blog/coloured-towers/part-1-journey-in-colour-exhibition-01.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-journey-in-colour-exhibition-01.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 37688,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-1-journey-in-colour-exhibition-01 images/blog/coloured-towers/part-1-journey-in-colour-exhibition-01.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-1-journey-in-colour-exhibition-01.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-journey-in-colour-exhibition-01.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 860,
+          "height": 534,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-1-journey-in-colour-exhibition-01.webp",
+          "thumb_bytes": 18618,
+          "thumb_width": 560,
+          "thumb_height": 348
+        },
+        {
+          "name": "part-1-journey-in-colour-exhibition-02",
+          "path": "images/blog/coloured-towers/part-1-journey-in-colour-exhibition-02.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-journey-in-colour-exhibition-02.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 37230,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-1-journey-in-colour-exhibition-02 images/blog/coloured-towers/part-1-journey-in-colour-exhibition-02.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-1-journey-in-colour-exhibition-02.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-journey-in-colour-exhibition-02.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 759,
+          "height": 581,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-1-journey-in-colour-exhibition-02.webp",
+          "thumb_bytes": 21092,
+          "thumb_width": 560,
+          "thumb_height": 429
+        },
+        {
+          "name": "part-1-led-controller-uk-flag-case",
+          "path": "images/blog/coloured-towers/part-1-led-controller-uk-flag-case.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-led-controller-uk-flag-case.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 26916,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-1-led-controller-uk-flag-case images/blog/coloured-towers/part-1-led-controller-uk-flag-case.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-1-led-controller-uk-flag-case.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-led-controller-uk-flag-case.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1050,
+          "height": 392,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-1-led-controller-uk-flag-case.webp",
+          "thumb_bytes": 14518,
+          "thumb_width": 560,
+          "thumb_height": 209
+        },
+        {
+          "name": "part-1-light-stands-development",
+          "path": "images/blog/coloured-towers/part-1-light-stands-development.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-light-stands-development.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 29926,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-1-light-stands-development images/blog/coloured-towers/part-1-light-stands-development.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-1-light-stands-development.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-light-stands-development.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 709,
+          "height": 533,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-1-light-stands-development.webp",
+          "thumb_bytes": 20258,
+          "thumb_width": 560,
+          "thumb_height": 421
+        },
+        {
+          "name": "part-1-light-tower-design",
+          "path": "images/blog/coloured-towers/part-1-light-tower-design.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-light-tower-design.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 21234,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-1-light-tower-design images/blog/coloured-towers/part-1-light-tower-design.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-1-light-tower-design.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-light-tower-design.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1147,
+          "height": 614,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-1-light-tower-design.webp",
+          "thumb_bytes": 8122,
+          "thumb_width": 560,
+          "thumb_height": 300
+        },
+        {
+          "name": "part-1-museum-installing-led-strips",
+          "path": "images/blog/coloured-towers/part-1-museum-installing-led-strips.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-museum-installing-led-strips.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 82438,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-1-museum-installing-led-strips images/blog/coloured-towers/part-1-museum-installing-led-strips.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-1-museum-installing-led-strips.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-museum-installing-led-strips.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 872,
+          "height": 602,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-1-museum-installing-led-strips.webp",
+          "thumb_bytes": 38158,
+          "thumb_width": 560,
+          "thumb_height": 387
+        },
+        {
+          "name": "part-1-remote-installation-kickoff",
+          "path": "images/blog/coloured-towers/part-1-remote-installation-kickoff.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-remote-installation-kickoff.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 20854,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-1-remote-installation-kickoff images/blog/coloured-towers/part-1-remote-installation-kickoff.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-1-remote-installation-kickoff.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-remote-installation-kickoff.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 934,
+          "height": 610,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-1-remote-installation-kickoff.webp",
+          "thumb_bytes": 11814,
+          "thumb_width": 560,
+          "thumb_height": 366
+        },
+        {
+          "name": "part-1-studio-final-test-01",
+          "path": "images/blog/coloured-towers/part-1-studio-final-test-01.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-studio-final-test-01.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 272660,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-1-studio-final-test-01 images/blog/coloured-towers/part-1-studio-final-test-01.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-1-studio-final-test-01.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-studio-final-test-01.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1600,
+          "height": 1200,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-1-studio-final-test-01.webp",
+          "thumb_bytes": 56498,
+          "thumb_width": 560,
+          "thumb_height": 420
+        },
+        {
+          "name": "part-1-studio-final-test-02",
+          "path": "images/blog/coloured-towers/part-1-studio-final-test-02.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-studio-final-test-02.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 95368,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-1-studio-final-test-02 images/blog/coloured-towers/part-1-studio-final-test-02.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-1-studio-final-test-02.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-studio-final-test-02.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1600,
+          "height": 1066,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-1-studio-final-test-02.webp",
+          "thumb_bytes": 26642,
+          "thumb_width": 560,
+          "thumb_height": 373
+        },
+        {
+          "name": "part-1-video-meeting-dave-bramston",
+          "path": "images/blog/coloured-towers/part-1-video-meeting-dave-bramston.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-video-meeting-dave-bramston.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 43288,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-1-video-meeting-dave-bramston images/blog/coloured-towers/part-1-video-meeting-dave-bramston.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-1-video-meeting-dave-bramston.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-1-video-meeting-dave-bramston.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1599,
+          "height": 655,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-1-video-meeting-dave-bramston.webp",
+          "thumb_bytes": 12684,
+          "thumb_width": 560,
+          "thumb_height": 229
+        },
+        {
+          "name": "part-2-colour-checker-board",
+          "path": "images/blog/coloured-towers/part-2-colour-checker-board.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-2-colour-checker-board.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 30870,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-2-colour-checker-board images/blog/coloured-towers/part-2-colour-checker-board.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-2-colour-checker-board.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-2-colour-checker-board.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 924,
+          "height": 314,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-2-colour-checker-board.webp",
+          "thumb_bytes": 16926,
+          "thumb_width": 560,
+          "thumb_height": 190
+        },
+        {
+          "name": "part-2-colour-detection-testing",
+          "path": "images/blog/coloured-towers/part-2-colour-detection-testing.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-2-colour-detection-testing.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 10940,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-2-colour-detection-testing images/blog/coloured-towers/part-2-colour-detection-testing.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-2-colour-detection-testing.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-2-colour-detection-testing.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 303,
+          "height": 405
+        },
+        {
+          "name": "part-2-power-supply-connection",
+          "path": "images/blog/coloured-towers/part-2-power-supply-connection.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-2-power-supply-connection.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 98540,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-2-power-supply-connection images/blog/coloured-towers/part-2-power-supply-connection.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-2-power-supply-connection.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-2-power-supply-connection.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1050,
+          "height": 501,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-2-power-supply-connection.webp",
+          "thumb_bytes": 36842,
+          "thumb_width": 560,
+          "thumb_height": 267
+        },
+        {
+          "name": "part-2-technical-process-diagram",
+          "path": "images/blog/coloured-towers/part-2-technical-process-diagram.webp",
+          "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-2-technical-process-diagram.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "blog/coloured-towers",
+          "category": "images",
+          "size_bytes": 55960,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "part-2-technical-process-diagram images/blog/coloured-towers/part-2-technical-process-diagram.webp blog/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/blog/coloured-towers/part-2-technical-process-diagram.jpg",
+              "url": "https://assets.led-bug.com/images/blog/coloured-towers/part-2-technical-process-diagram.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1279,
+          "height": 646,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/blog/coloured-towers/part-2-technical-process-diagram.webp",
+          "thumb_bytes": 18838,
+          "thumb_width": 560,
+          "thumb_height": 283
+        },
         {
           "name": "cover-en",
           "path": "images/branding/cover-en.webp",
@@ -21,8 +459,8 @@
           "folder": "branding",
           "category": "images",
           "size_bytes": 530006,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "cover-en images/branding/cover-en.webp branding webp images",
           "alternates": [],
           "width": 1920,
@@ -41,8 +479,8 @@
           "folder": "branding",
           "category": "images",
           "size_bytes": 530006,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "cover images/branding/cover.webp branding webp images",
           "alternates": [],
           "width": 1920,
@@ -61,8 +499,8 @@
           "folder": "branding",
           "category": "images",
           "size_bytes": 24582,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "favicon images/branding/favicon.webp branding webp images",
           "alternates": [],
           "width": 900,
@@ -81,8 +519,8 @@
           "folder": "branding",
           "category": "images",
           "size_bytes": 3090,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "logo-c-eng-white-en images/branding/logo-c-eng-white-en.svg branding svg images",
           "alternates": []
         },
@@ -95,8 +533,8 @@
           "folder": "branding",
           "category": "images",
           "size_bytes": 3090,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "logo-c-eng-white images/branding/logo-c-eng-white.svg branding svg images",
           "alternates": []
         },
@@ -109,8 +547,8 @@
           "folder": "branding",
           "category": "images",
           "size_bytes": 67814,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "logo-en images/branding/logo-en.webp branding webp images",
           "alternates": [],
           "width": 900,
@@ -129,8 +567,8 @@
           "folder": "branding",
           "category": "images",
           "size_bytes": 67814,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "logo images/branding/logo.webp branding webp images",
           "alternates": [],
           "width": 900,
@@ -149,8 +587,8 @@
           "folder": "branding",
           "category": "images",
           "size_bytes": 23334,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "op-avatar images/branding/op-avatar.webp branding webp images",
           "alternates": [
             {
@@ -175,8 +613,8 @@
           "folder": "icon",
           "category": "images",
           "size_bytes": 1381,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "hdmi-port-2 images/icon/hdmi-port-2.svg icon svg images",
           "alternates": []
         },
@@ -189,8 +627,8 @@
           "folder": "mini",
           "category": "images",
           "size_bytes": 50508,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "mini-en images/mini/mini-en.webp mini webp images",
           "alternates": [],
           "width": 1564,
@@ -209,8 +647,8 @@
           "folder": "mini",
           "category": "images",
           "size_bytes": 50508,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "mini images/mini/mini.webp mini webp images",
           "alternates": [],
           "width": 1564,
@@ -229,8 +667,8 @@
           "folder": "mini",
           "category": "images",
           "size_bytes": 35202,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "mini_intro_1-en images/mini/mini_intro_1-en.webp mini webp images",
           "alternates": [],
           "width": 1080,
@@ -249,8 +687,8 @@
           "folder": "mini",
           "category": "images",
           "size_bytes": 31964,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "mini_intro_1 images/mini/mini_intro_1.webp mini webp images",
           "alternates": [],
           "width": 1080,
@@ -269,8 +707,8 @@
           "folder": "mini",
           "category": "images",
           "size_bytes": 23078,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "mini_intro_2-en images/mini/mini_intro_2-en.webp mini webp images",
           "alternates": [],
           "width": 1080,
@@ -289,8 +727,8 @@
           "folder": "mini",
           "category": "images",
           "size_bytes": 22430,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "mini_intro_2 images/mini/mini_intro_2.webp mini webp images",
           "alternates": [],
           "width": 1080,
@@ -309,8 +747,8 @@
           "folder": "mini",
           "category": "images",
           "size_bytes": 62018,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "mini_intro_3-en images/mini/mini_intro_3-en.webp mini webp images",
           "alternates": [],
           "width": 1151,
@@ -329,8 +767,8 @@
           "folder": "mini",
           "category": "images",
           "size_bytes": 61594,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "mini_intro_3 images/mini/mini_intro_3.webp mini webp images",
           "alternates": [],
           "width": 1151,
@@ -349,8 +787,8 @@
           "folder": "product",
           "category": "images",
           "size_bytes": 69120,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "close-up-en images/product/close-up-en.webp product webp images",
           "alternates": [],
           "width": 1000,
@@ -369,8 +807,8 @@
           "folder": "product",
           "category": "images",
           "size_bytes": 69120,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "close-up images/product/close-up.webp product webp images",
           "alternates": [],
           "width": 1000,
@@ -389,8 +827,8 @@
           "folder": "product",
           "category": "images",
           "size_bytes": 43340,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "dsc00147-en images/product/dsc00147-en.webp product webp images",
           "alternates": [
             {
@@ -415,8 +853,8 @@
           "folder": "product",
           "category": "images",
           "size_bytes": 43340,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "dsc00147 images/product/dsc00147.webp product webp images",
           "alternates": [
             {
@@ -433,6 +871,110 @@
           "thumb_height": 315
         },
         {
+          "name": "cover",
+          "path": "images/projects/coloured-towers/cover.webp",
+          "url": "https://assets.led-bug.com/images/projects/coloured-towers/cover.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "projects/coloured-towers",
+          "category": "images",
+          "size_bytes": 48720,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "cover images/projects/coloured-towers/cover.webp projects/coloured-towers webp images",
+          "alternates": [
+            {
+              "path": "images/projects/coloured-towers/cover.jpg",
+              "url": "https://assets.led-bug.com/images/projects/coloured-towers/cover.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1080,
+          "height": 786,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/projects/coloured-towers/cover.webp",
+          "thumb_bytes": 14778,
+          "thumb_width": 560,
+          "thumb_height": 408
+        },
+        {
+          "name": "cover",
+          "path": "images/projects/congrats-x/cover.webp",
+          "url": "https://assets.led-bug.com/images/projects/congrats-x/cover.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "projects/congrats-x",
+          "category": "images",
+          "size_bytes": 54310,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "cover images/projects/congrats-x/cover.webp projects/congrats-x webp images",
+          "alternates": [
+            {
+              "path": "images/projects/congrats-x/cover.jpg",
+              "url": "https://assets.led-bug.com/images/projects/congrats-x/cover.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1440,
+          "height": 1048,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/projects/congrats-x/cover.webp",
+          "thumb_bytes": 19636,
+          "thumb_width": 560,
+          "thumb_height": 408
+        },
+        {
+          "name": "cover",
+          "path": "images/projects/dreammech-forest/cover.webp",
+          "url": "https://assets.led-bug.com/images/projects/dreammech-forest/cover.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "projects/dreammech-forest",
+          "category": "images",
+          "size_bytes": 91136,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "cover images/projects/dreammech-forest/cover.webp projects/dreammech-forest webp images",
+          "alternates": [
+            {
+              "path": "images/projects/dreammech-forest/cover.jpg",
+              "url": "https://assets.led-bug.com/images/projects/dreammech-forest/cover.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 984,
+          "height": 716,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/projects/dreammech-forest/cover.webp",
+          "thumb_bytes": 44066,
+          "thumb_width": 560,
+          "thumb_height": 407
+        },
+        {
+          "name": "cover",
+          "path": "images/projects/hello-5g-light/cover.webp",
+          "url": "https://assets.led-bug.com/images/projects/hello-5g-light/cover.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "projects/hello-5g-light",
+          "category": "images",
+          "size_bytes": 88520,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "cover images/projects/hello-5g-light/cover.webp projects/hello-5g-light webp images",
+          "alternates": [
+            {
+              "path": "images/projects/hello-5g-light/cover.jpeg",
+              "url": "https://assets.led-bug.com/images/projects/hello-5g-light/cover.jpeg",
+              "ext": ".jpeg"
+            }
+          ],
+          "width": 990,
+          "height": 720,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/projects/hello-5g-light/cover.webp",
+          "thumb_bytes": 34972,
+          "thumb_width": 560,
+          "thumb_height": 407
+        },
+        {
           "name": "01",
           "path": "images/projects/led-bug-demos/01.webp",
           "url": "https://assets.led-bug.com/images/projects/led-bug-demos/01.webp",
@@ -441,8 +983,8 @@
           "folder": "projects/led-bug-demos",
           "category": "images",
           "size_bytes": 68436,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "01 images/projects/led-bug-demos/01.webp projects/led-bug-demos webp images",
           "alternates": [
             {
@@ -467,8 +1009,8 @@
           "folder": "projects/led-bug-demos",
           "category": "images",
           "size_bytes": 75330,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "02 images/projects/led-bug-demos/02.webp projects/led-bug-demos webp images",
           "alternates": [
             {
@@ -493,8 +1035,8 @@
           "folder": "projects/led-bug-demos",
           "category": "images",
           "size_bytes": 71296,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "03 images/projects/led-bug-demos/03.webp projects/led-bug-demos webp images",
           "alternates": [
             {
@@ -519,8 +1061,8 @@
           "folder": "projects/led-bug-demos",
           "category": "images",
           "size_bytes": 67530,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "04 images/projects/led-bug-demos/04.webp projects/led-bug-demos webp images",
           "alternates": [
             {
@@ -545,8 +1087,8 @@
           "folder": "projects/led-bug-demos",
           "category": "images",
           "size_bytes": 72418,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "05 images/projects/led-bug-demos/05.webp projects/led-bug-demos webp images",
           "alternates": [
             {
@@ -571,8 +1113,8 @@
           "folder": "projects/led-bug-demos",
           "category": "images",
           "size_bytes": 68310,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "06 images/projects/led-bug-demos/06.webp projects/led-bug-demos webp images",
           "alternates": [
             {
@@ -597,8 +1139,8 @@
           "folder": "projects/led-bug-demos",
           "category": "images",
           "size_bytes": 78656,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "cover images/projects/led-bug-demos/cover.webp projects/led-bug-demos webp images",
           "alternates": [
             {
@@ -623,8 +1165,8 @@
           "folder": "projects/magic-cube-lamp",
           "category": "images",
           "size_bytes": 272836,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "01 images/projects/magic-cube-lamp/01.webp projects/magic-cube-lamp webp images",
           "alternates": [
             {
@@ -649,8 +1191,8 @@
           "folder": "projects/magic-cube-lamp",
           "category": "images",
           "size_bytes": 70804,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "02 images/projects/magic-cube-lamp/02.webp projects/magic-cube-lamp webp images",
           "alternates": [
             {
@@ -675,8 +1217,8 @@
           "folder": "projects/magic-cube-lamp",
           "category": "images",
           "size_bytes": 86410,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "03 images/projects/magic-cube-lamp/03.webp projects/magic-cube-lamp webp images",
           "alternates": [
             {
@@ -701,8 +1243,8 @@
           "folder": "projects/magic-cube-lamp",
           "category": "images",
           "size_bytes": 107036,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "04 images/projects/magic-cube-lamp/04.webp projects/magic-cube-lamp webp images",
           "alternates": [
             {
@@ -727,8 +1269,8 @@
           "folder": "projects/magic-cube-lamp",
           "category": "images",
           "size_bytes": 101990,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "05 images/projects/magic-cube-lamp/05.webp projects/magic-cube-lamp webp images",
           "alternates": [
             {
@@ -753,8 +1295,8 @@
           "folder": "projects/magic-cube-lamp",
           "category": "images",
           "size_bytes": 117600,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "06 images/projects/magic-cube-lamp/06.webp projects/magic-cube-lamp webp images",
           "alternates": [
             {
@@ -779,8 +1321,8 @@
           "folder": "projects/magic-cube-lamp",
           "category": "images",
           "size_bytes": 99602,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "cover images/projects/magic-cube-lamp/cover.webp projects/magic-cube-lamp webp images",
           "alternates": [
             {
@@ -805,8 +1347,8 @@
           "folder": "projects/mechanical-tree",
           "category": "images",
           "size_bytes": 198770,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "01 images/projects/mechanical-tree/01.webp projects/mechanical-tree webp images",
           "alternates": [
             {
@@ -831,8 +1373,8 @@
           "folder": "projects/mechanical-tree",
           "category": "images",
           "size_bytes": 116662,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "02 images/projects/mechanical-tree/02.webp projects/mechanical-tree webp images",
           "alternates": [
             {
@@ -857,8 +1399,8 @@
           "folder": "projects/mechanical-tree",
           "category": "images",
           "size_bytes": 191042,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "03 images/projects/mechanical-tree/03.webp projects/mechanical-tree webp images",
           "alternates": [
             {
@@ -883,8 +1425,8 @@
           "folder": "projects/mechanical-tree",
           "category": "images",
           "size_bytes": 127542,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "04 images/projects/mechanical-tree/04.webp projects/mechanical-tree webp images",
           "alternates": [
             {
@@ -909,8 +1451,8 @@
           "folder": "projects/mechanical-tree",
           "category": "images",
           "size_bytes": 194066,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "05 images/projects/mechanical-tree/05.webp projects/mechanical-tree webp images",
           "alternates": [
             {
@@ -935,8 +1477,8 @@
           "folder": "projects/mechanical-tree",
           "category": "images",
           "size_bytes": 141534,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "06 images/projects/mechanical-tree/06.webp projects/mechanical-tree webp images",
           "alternates": [
             {
@@ -961,8 +1503,8 @@
           "folder": "projects/mechanical-tree",
           "category": "images",
           "size_bytes": 187918,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "cover images/projects/mechanical-tree/cover.webp projects/mechanical-tree webp images",
           "alternates": [
             {
@@ -987,8 +1529,8 @@
           "folder": "projects/moon-river",
           "category": "images",
           "size_bytes": 80236,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "01 images/projects/moon-river/01.webp projects/moon-river webp images",
           "alternates": [
             {
@@ -1013,8 +1555,8 @@
           "folder": "projects/moon-river",
           "category": "images",
           "size_bytes": 181876,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "02 images/projects/moon-river/02.webp projects/moon-river webp images",
           "alternates": [
             {
@@ -1039,8 +1581,8 @@
           "folder": "projects/moon-river",
           "category": "images",
           "size_bytes": 84536,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "03 images/projects/moon-river/03.webp projects/moon-river webp images",
           "alternates": [
             {
@@ -1065,8 +1607,8 @@
           "folder": "projects/moon-river",
           "category": "images",
           "size_bytes": 101380,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "04 images/projects/moon-river/04.webp projects/moon-river webp images",
           "alternates": [
             {
@@ -1091,8 +1633,8 @@
           "folder": "projects/moon-river",
           "category": "images",
           "size_bytes": 122364,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "05 images/projects/moon-river/05.webp projects/moon-river webp images",
           "alternates": [
             {
@@ -1117,8 +1659,8 @@
           "folder": "projects/moon-river",
           "category": "images",
           "size_bytes": 122694,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "06 images/projects/moon-river/06.webp projects/moon-river webp images",
           "alternates": [
             {
@@ -1143,10 +1685,15 @@
           "folder": "projects/moon-river",
           "category": "images",
           "size_bytes": 102024,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "cover images/projects/moon-river/cover.webp projects/moon-river webp images",
           "alternates": [
+            {
+              "path": "images/projects/moon-river/cover.jpeg",
+              "url": "https://assets.led-bug.com/images/projects/moon-river/cover.jpeg",
+              "ext": ".jpeg"
+            },
             {
               "path": "images/projects/moon-river/cover.jpg",
               "url": "https://assets.led-bug.com/images/projects/moon-river/cover.jpg",
@@ -1161,6 +1708,58 @@
           "thumb_height": 315
         },
         {
+          "name": "cover",
+          "path": "images/projects/platos-cube/cover.webp",
+          "url": "https://assets.led-bug.com/images/projects/platos-cube/cover.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "projects/platos-cube",
+          "category": "images",
+          "size_bytes": 23868,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "cover images/projects/platos-cube/cover.webp projects/platos-cube webp images",
+          "alternates": [
+            {
+              "path": "images/projects/platos-cube/cover.jpg",
+              "url": "https://assets.led-bug.com/images/projects/platos-cube/cover.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 990,
+          "height": 720,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/projects/platos-cube/cover.webp",
+          "thumb_bytes": 11880,
+          "thumb_width": 560,
+          "thumb_height": 407
+        },
+        {
+          "name": "cover",
+          "path": "images/projects/relationship/cover.webp",
+          "url": "https://assets.led-bug.com/images/projects/relationship/cover.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "projects/relationship",
+          "category": "images",
+          "size_bytes": 88706,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "cover images/projects/relationship/cover.webp projects/relationship webp images",
+          "alternates": [
+            {
+              "path": "images/projects/relationship/cover.png",
+              "url": "https://assets.led-bug.com/images/projects/relationship/cover.png",
+              "ext": ".png"
+            }
+          ],
+          "width": 1212,
+          "height": 882,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/projects/relationship/cover.webp",
+          "thumb_bytes": 24140,
+          "thumb_width": 560,
+          "thumb_height": 408
+        },
+        {
           "name": "01",
           "path": "images/projects/spectrum-of-objects/01.webp",
           "url": "https://assets.led-bug.com/images/projects/spectrum-of-objects/01.webp",
@@ -1169,8 +1768,8 @@
           "folder": "projects/spectrum-of-objects",
           "category": "images",
           "size_bytes": 78632,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "01 images/projects/spectrum-of-objects/01.webp projects/spectrum-of-objects webp images",
           "alternates": [
             {
@@ -1195,8 +1794,8 @@
           "folder": "projects/spectrum-of-objects",
           "category": "images",
           "size_bytes": 49006,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "02 images/projects/spectrum-of-objects/02.webp projects/spectrum-of-objects webp images",
           "alternates": [
             {
@@ -1221,8 +1820,8 @@
           "folder": "projects/spectrum-of-objects",
           "category": "images",
           "size_bytes": 64714,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "03 images/projects/spectrum-of-objects/03.webp projects/spectrum-of-objects webp images",
           "alternates": [
             {
@@ -1247,8 +1846,8 @@
           "folder": "projects/spectrum-of-objects",
           "category": "images",
           "size_bytes": 61680,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "04 images/projects/spectrum-of-objects/04.webp projects/spectrum-of-objects webp images",
           "alternates": [
             {
@@ -1273,8 +1872,8 @@
           "folder": "projects/spectrum-of-objects",
           "category": "images",
           "size_bytes": 45824,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "05 images/projects/spectrum-of-objects/05.webp projects/spectrum-of-objects webp images",
           "alternates": [
             {
@@ -1299,8 +1898,8 @@
           "folder": "projects/spectrum-of-objects",
           "category": "images",
           "size_bytes": 124618,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "06 images/projects/spectrum-of-objects/06.webp projects/spectrum-of-objects webp images",
           "alternates": [
             {
@@ -1324,9 +1923,9 @@
           "is_image": true,
           "folder": "projects/spectrum-of-objects",
           "category": "images",
-          "size_bytes": 66610,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "size_bytes": 139516,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "cover images/projects/spectrum-of-objects/cover.webp projects/spectrum-of-objects webp images",
           "alternates": [
             {
@@ -1335,12 +1934,38 @@
               "ext": ".jpg"
             }
           ],
-          "width": 1920,
-          "height": 1440,
+          "width": 2000,
+          "height": 1454,
           "thumb_url": "https://assets.led-bug.com/images/_thumbs/projects/spectrum-of-objects/cover.webp",
-          "thumb_bytes": 13758,
+          "thumb_bytes": 21616,
           "thumb_width": 560,
-          "thumb_height": 420
+          "thumb_height": 407
+        },
+        {
+          "name": "cover",
+          "path": "images/projects/the-first-law-of-forest/cover.webp",
+          "url": "https://assets.led-bug.com/images/projects/the-first-law-of-forest/cover.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "projects/the-first-law-of-forest",
+          "category": "images",
+          "size_bytes": 22130,
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
+          "search_text": "cover images/projects/the-first-law-of-forest/cover.webp projects/the-first-law-of-forest webp images",
+          "alternates": [
+            {
+              "path": "images/projects/the-first-law-of-forest/cover.jpg",
+              "url": "https://assets.led-bug.com/images/projects/the-first-law-of-forest/cover.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 599,
+          "height": 435,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/projects/the-first-law-of-forest/cover.webp",
+          "thumb_bytes": 18990,
+          "thumb_width": 560,
+          "thumb_height": 407
         },
         {
           "name": "sr-en",
@@ -1351,8 +1976,8 @@
           "folder": "sr",
           "category": "images",
           "size_bytes": 69120,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "sr-en images/sr/sr-en.webp sr webp images",
           "alternates": [],
           "width": 1000,
@@ -1371,8 +1996,8 @@
           "folder": "sr",
           "category": "images",
           "size_bytes": 69120,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "sr images/sr/sr.webp sr webp images",
           "alternates": [],
           "width": 1000,
@@ -1391,8 +2016,8 @@
           "folder": "sr",
           "category": "images",
           "size_bytes": 72728,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "sr_intro_1-en images/sr/sr_intro_1-en.webp sr webp images",
           "alternates": [],
           "width": 1088,
@@ -1411,8 +2036,8 @@
           "folder": "sr",
           "category": "images",
           "size_bytes": 69674,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "sr_intro_1 images/sr/sr_intro_1.webp sr webp images",
           "alternates": [],
           "width": 1088,
@@ -1431,8 +2056,8 @@
           "folder": "sr",
           "category": "images",
           "size_bytes": 53280,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "sr_intro_2-en images/sr/sr_intro_2-en.webp sr webp images",
           "alternates": [],
           "width": 1088,
@@ -1451,8 +2076,8 @@
           "folder": "sr",
           "category": "images",
           "size_bytes": 51030,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "sr_intro_2 images/sr/sr_intro_2.webp sr webp images",
           "alternates": [],
           "width": 1088,
@@ -1471,8 +2096,8 @@
           "folder": "sr",
           "category": "images",
           "size_bytes": 62854,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "sr_intro_3-en images/sr/sr_intro_3-en.webp sr webp images",
           "alternates": [],
           "width": 1146,
@@ -1491,8 +2116,8 @@
           "folder": "sr",
           "category": "images",
           "size_bytes": 61490,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "sr_intro_3 images/sr/sr_intro_3.webp sr webp images",
           "alternates": [],
           "width": 1146,
@@ -1517,8 +2142,8 @@
           "folder": "data/projects/mechanical-tree",
           "category": "data",
           "size_bytes": 2055862,
-          "modified_ts": 1779786883,
-          "modified_at": "2026-05-26T09:14:43Z",
+          "modified_ts": 1779789982,
+          "modified_at": "2026-05-26T10:06:22Z",
           "search_text": "hero-loop data/projects/mechanical-tree/hero-loop.mp4 data/projects/mechanical-tree mp4 data",
           "alternates": []
         }
