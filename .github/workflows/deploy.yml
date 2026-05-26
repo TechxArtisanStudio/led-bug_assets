@@ -1,0 +1,124 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:  # Allow manual trigger
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Install dependencies for minification and image conversion
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y webp
+          npm install -g uglify-js csso-cli
+
+      - name: Build and minify project
+        run: |
+          sh ./build.sh
+          # Verify build created files
+          if [ ! -d "dist" ] || [ -z "$(ls -A dist 2>/dev/null)" ]; then
+            echo "ERROR: dist/ directory is empty after build!"
+            exit 1
+          fi
+
+      - name: Generate asset links
+        run: |
+          python scripts/generate_url.py
+
+      - name: Build site manifest
+        run: |
+          python scripts/generate_manifest.py
+
+      - name: Verify build output
+        run: |
+          echo "=== Build Output Verification ==="
+          echo "Current working directory:"
+          pwd
+          echo ""
+          echo "Contents of dist/ directory:"
+          find dist -type f | sort || echo "No files found!"
+          echo ""
+          echo "Directory structure:"
+          ls -la dist/ || echo "dist/ does not exist!"
+          echo ""
+          echo "Checking dist/images/:"
+          ls -la dist/images/ 2>/dev/null || echo "dist/images/ does not exist!"
+          echo ""
+          echo "WebP files in dist/images/:"
+          find dist/images -name "*.webp" 2>/dev/null | sort || echo "No WebP files found!"
+          echo ""
+          echo "Image files in dist/images/:"
+          find dist/images -type f 2>/dev/null | sort || echo "No image files found!"
+          echo ""
+          echo "Checking if dist/ has any content:"
+          if [ "$(ls -A dist 2>/dev/null)" ]; then
+            echo "✓ dist/ directory has content"
+            du -sh dist/
+            echo ""
+            echo "File count:"
+            find dist -type f | wc -l
+          else
+            echo "✗ ERROR: dist/ directory is empty!"
+            exit 1
+          fi
+          if [ ! -f dist/index.html ] || [ ! -f dist/assets.json ]; then
+            echo "✗ ERROR: dist/index.html or dist/assets.json missing!"
+            exit 1
+          fi
+          echo "✓ Asset browser files present"
+
+      - name: Create CNAME for custom domain
+        run: |
+          python -c "
+          import tomllib
+          from pathlib import Path
+          config_path = Path('config.toml')
+          if not config_path.exists():
+              exit(0)
+          with open(config_path, 'rb') as f:
+              config = tomllib.load(f)
+          base_url = (config.get('repository') or {}).get('base_url') or ''
+          if not base_url:
+              (Path('dist') / 'CNAME').unlink(missing_ok=True)
+              exit(0)
+          domain = base_url.replace('https://', '').replace('http://', '').rstrip('/').split('/')[0]
+          if not domain or '.github.io' in domain:
+              # Not a custom domain; remove dist/CNAME if present
+              (Path('dist') / 'CNAME').unlink(missing_ok=True)
+              exit(0)
+          (Path('dist') / 'CNAME').write_text(domain + chr(10), encoding='utf-8')
+          print(f'Created dist/CNAME with domain: {domain}')
+          "
+
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
+          keep_files: false
+          force_orphan: false
