@@ -27,7 +27,7 @@ except ImportError:
         tomllib = None
 
 # Default base URL when not in config.toml
-DEFAULT_BASE_URL = "https://assets.led-bugs.com"
+DEFAULT_BASE_URL = "https://assets.led-bug.com"
 
 # File type configuration mapping
 FILE_TYPE_MAPPING = {

@@ -23,7 +23,7 @@ except ImportError:
 
 PROJECT_ROOT = Path(__file__).parent.parent
 SRC_IMAGES = PROJECT_ROOT / "src" / "images"
-DEFAULT_BASE_URL = "https://assets.led-bugs.com"
+DEFAULT_BASE_URL = "https://assets.led-bug.com"
 
 IMAGE_EXTENSIONS = {".png", ".jpg", ".jpeg", ".svg", ".gif", ".webp"}
 WEBP_CONVERT_EXTENSIONS = {".png", ".jpg", ".jpeg"}

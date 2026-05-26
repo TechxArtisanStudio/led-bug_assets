@@ -2,7 +2,7 @@
 
 Static asset CDN and team asset browser for the LED-Bug project. Built from the [static-assets-template](https://github.com/youyoubilly/static-assets-template) pattern.
 
-**CDN base URL:** [https://assets.led-bugs.com](https://assets.led-bugs.com)
+**CDN base URL:** [https://assets.led-bug.com](https://assets.led-bug.com)
 
 ## Overview
 
@@ -83,7 +83,7 @@ Edit `config.toml`:
 
 ```toml
 [repository]
-base_url = "https://assets.led-bugs.com"
+base_url = "https://assets.led-bug.com"
 ```
 
 ## License

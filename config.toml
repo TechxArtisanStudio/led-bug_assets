@@ -1,6 +1,6 @@
 [repository]
 # Base URL for generated asset links
-base_url = "https://assets.led-bugs.com"
+base_url = "https://assets.led-bug.com"
 
 # GitHub Pages domain (for CNAME)
 # Leave empty if using default github.io domain

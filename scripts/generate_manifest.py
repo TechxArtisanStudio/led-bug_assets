@@ -26,7 +26,7 @@ except ImportError:
     except ImportError:
         tomllib = None
 
-DEFAULT_BASE_URL = "https://assets.led-bugs.com"
+DEFAULT_BASE_URL = "https://assets.led-bug.com"
 
 EXCLUDE_NAMES = {
     "CNAME",

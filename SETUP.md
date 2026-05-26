@@ -12,20 +12,21 @@ Already set for LED-Bug:
 
 ```toml
 [repository]
-base_url = "https://assets.led-bugs.com"
+base_url = "https://assets.led-bug.com"
 ```
 
 ## Step 2: GitHub Pages
 
 1. Push to the `main` branch
 2. Repository **Settings → Pages**
-3. **Source**: GitHub Actions
-4. The workflow in `.github/workflows/deploy.yml` deploys `dist/` to the `gh-pages` branch
+3. **Source**: Deploy from branch **`gh-pages`**, folder **`/` (root)**
+4. The workflow in `.github/workflows/deploy.yml` builds and pushes `dist/` to `gh-pages` on each push to `main`
 
 ## Step 3: Custom Domain (DNS)
 
-1. Add a **CNAME** record: `assets.led-bugs.com` → `TechxArtisanStudio.github.io`
-2. After the first successful deploy, GitHub Pages will serve from `gh-pages` with `dist/CNAME` containing `assets.led-bugs.com` (written automatically in CI from `config.toml`)
+1. Add a **CNAME** record: host `assets` on `led-bug.com` → **`TechxArtisanStudio.github.io`** (must match the GitHub org name; `techxartisan.github.io` is a different account and will 404)
+2. In **Settings → Pages**, set custom domain to `assets.led-bug.com`
+3. After deploy, `gh-pages` includes `CNAME` with `assets.led-bug.com` (written automatically in CI from `config.toml`)
 
 ## Step 4: Password Gate
 
@@ -67,10 +68,10 @@ Filename keywords route into subfolders: `sr`, `mini`, `product`, `icon`, `blog`
 
 - [ ] `config.toml` `base_url` is correct
 - [ ] GitHub Pages source = GitHub Actions
-- [ ] DNS CNAME for `assets.led-bugs.com`
+- [ ] DNS CNAME for `assets.led-bug.com`
 - [ ] Password hash set in `src/site/gate.js`
 - [ ] First push to `main` succeeded in Actions
-- [ ] `https://assets.led-bugs.com/` loads the browser
+- [ ] `https://assets.led-bug.com/` loads the browser
 
 ## Troubleshooting
 
