@@ -4,7 +4,7 @@
     const STORAGE_KEY = 'ledbug_assets_unlocked';
     const SESSION_KEY = 'ledbug_assets_session';
     const PASSWORD_HASH =
-        '7c01af64a0f66ea5ead398910fa234179bfc8a546e8b527bf6408b0b617643b8';
+        '4e0336dd9c284e3921a9ef79816de80bd5eda6b7364955ab48cebe7c767bf84a';
     const REMEMBER_MS = 30 * 24 * 60 * 60 * 1000;
     const UNLOCK_TOKEN = '1';
 
