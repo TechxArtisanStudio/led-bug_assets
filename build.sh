@@ -23,7 +23,7 @@ fi
 # Copy all images to dist/images while preserving folder structure
 if [ -d src/images ] && [ "$(ls -A src/images 2>/dev/null)" ]; then
     echo "Copying images to dist/images..."
-    rsync -a src/images/ dist/images/
+    rsync -a --exclude='.gitkeep' src/images/ dist/images/
     echo "Images copied successfully."
 else
     echo "No images directory or images found, skipping..."
@@ -32,7 +32,7 @@ fi
 # Copy data files to dist/data while preserving folder structure
 if [ -d src/data ] && [ "$(ls -A src/data 2>/dev/null)" ]; then
     echo "Copying data to dist/data..."
-    rsync -a src/data/ dist/data/
+    rsync -a --exclude='.gitkeep' src/data/ dist/data/
     echo "Data files copied successfully."
 else
     echo "No data directory or data files found, skipping..."
@@ -41,7 +41,7 @@ fi
 # Copy markdown files to dist/md while preserving folder structure
 if [ -d src/md ] && [ "$(ls -A src/md 2>/dev/null)" ]; then
     echo "Copying markdown files to dist/md..."
-    rsync -a src/md/ dist/md/
+    rsync -a --exclude='.gitkeep' src/md/ dist/md/
     echo "Markdown files copied successfully."
 else
     echo "No md directory or markdown files found, skipping..."

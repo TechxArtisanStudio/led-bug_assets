@@ -203,7 +203,9 @@ def upload_images(source: Path, base_url: str) -> tuple[list[dict], list[str]]:
     if source.is_dir():
         files = sorted([
             f for f in source.iterdir()
-            if f.is_file() and f.suffix.lower() in IMAGE_EXTENSIONS
+            if f.is_file()
+            and f.name != ".gitkeep"
+            and f.suffix.lower() in IMAGE_EXTENSIONS
         ])
     else:
         # Single file

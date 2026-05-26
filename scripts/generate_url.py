@@ -154,6 +154,8 @@ def find_files_by_type(directory: Path, extensions: List[str], base_dir: Path) -
     
     for root, dirs, filenames in os.walk(directory):
         for filename in filenames:
+            if filename == ".gitkeep":
+                continue
             file_path = Path(root) / filename
             if file_path.suffix.lower() in extensions:
                 # Get relative path from base directory

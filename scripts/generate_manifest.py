@@ -36,6 +36,7 @@ EXCLUDE_NAMES = {
     "app.js",
     "gate.js",
     "favicon.svg",
+    ".gitkeep",
 }
 
 IMAGE_EXTENSIONS = {".webp", ".svg", ".png", ".jpg", ".jpeg", ".gif"}
