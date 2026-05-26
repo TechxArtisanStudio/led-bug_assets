@@ -1,0 +1,73 @@
+{
+  "base_url": "https://assets.led-bugs.com",
+  "generated_at": "2026-05-26T07:58:47Z",
+  "commit": "f251f01",
+  "stats": {
+    "total": 3,
+    "data": 1,
+    "md": 1,
+    "other": 1
+  },
+  "categories": [
+    {
+      "id": "data",
+      "title": "Data",
+      "assets": [
+        {
+          "name": ".gitkeep",
+          "path": "data/.gitkeep",
+          "url": "https://assets.led-bugs.com/data/.gitkeep",
+          "ext": "",
+          "is_image": false,
+          "folder": "data",
+          "category": "data",
+          "size_bytes": 0,
+          "modified_ts": 1779782283,
+          "modified_at": "2026-05-26T07:58:03Z",
+          "search_text": ".gitkeep data/.gitkeep data data",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "md",
+      "title": "Markdown",
+      "assets": [
+        {
+          "name": ".gitkeep",
+          "path": "md/.gitkeep",
+          "url": "https://assets.led-bugs.com/md/.gitkeep",
+          "ext": "",
+          "is_image": false,
+          "folder": "md",
+          "category": "md",
+          "size_bytes": 0,
+          "modified_ts": 1779782283,
+          "modified_at": "2026-05-26T07:58:03Z",
+          "search_text": ".gitkeep md/.gitkeep md md",
+          "alternates": []
+        }
+      ]
+    },
+    {
+      "id": "other",
+      "title": "Other",
+      "assets": [
+        {
+          "name": ".gitkeep",
+          "path": "images/.gitkeep",
+          "url": "https://assets.led-bugs.com/images/.gitkeep",
+          "ext": "",
+          "is_image": false,
+          "folder": "(root)",
+          "category": "other",
+          "size_bytes": 0,
+          "modified_ts": 1779782283,
+          "modified_at": "2026-05-26T07:58:03Z",
+          "search_text": ".gitkeep images/.gitkeep root other",
+          "alternates": []
+        }
+      ]
+    }
+  ]
+}

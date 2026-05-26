@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LED-Bug Assets</title>
+    <meta name="description" content="Browse and search LED-Bug static assets">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="gate" class="gate" role="dialog" aria-modal="true" aria-labelledby="gate-title">
+        <div class="gate-panel">
+            <h1 id="gate-title" class="gate-title">LED-Bug <span class="accent">Assets</span></h1>
+            <p class="gate-subtitle">Team access only</p>
+            <form id="gate-form" class="gate-form">
+                <label for="gate-password" class="sr-only">Password</label>
+                <input
+                    type="password"
+                    id="gate-password"
+                    class="gate-input"
+                    placeholder="Password"
+                    autocomplete="current-password"
+                    required
+                >
+                <label class="gate-remember-label">
+                    <input type="checkbox" id="gate-remember" checked>
+                    Remember on this device (30 days)
+                </label>
+                <p id="gate-error" class="gate-error" role="alert"></p>
+                <button type="submit" class="gate-submit">Continue</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="app-root" class="hidden" aria-hidden="true">
+        <div class="container">
+            <header class="app-header">
+                <button type="button" id="logout-btn" class="logout-btn">Log out</button>
+                <h1>LED-Bug <span class="accent">Assets</span></h1>
+                <p class="subtitle">
+                    Browse, search, and copy CDN links
+                    <span id="domain-link" class="domain-link"></span>
+                </p>
+                <div id="stats-bar" class="stats-bar" aria-live="polite"></div>
+            </header>
+
+            <main>
+                <div class="toolbar-sticky">
+                    <div class="toolbar">
+                        <div class="search-wrap">
+                            <span class="search-icon" aria-hidden="true">⌕</span>
+                            <label for="search-input" class="sr-only">Search assets</label>
+                            <input
+                                type="search"
+                                id="search-input"
+                                class="search-input"
+                                placeholder="Search name, path, folder…"
+                                autocomplete="off"
+                            >
+                            <button type="button" id="search-clear" class="search-clear hidden" aria-label="Clear search">×</button>
+                        </div>
+                        <div class="toolbar-row">
+                            <div class="filters-scroll">
+                                <div id="category-tabs" class="category-tabs" role="tablist" aria-label="Asset categories"></div>
+                            </div>
+                            <div class="toolbar-actions">
+                            <label class="sort-wrap">
+                                <span class="sr-only">Sort order</span>
+                                <select id="sort-select" class="sort-select" aria-label="Sort order">
+                                    <option value="name">Name A–Z</option>
+                                    <option value="date-desc">Newest first</option>
+                                    <option value="date-asc">Oldest first</option>
+                                </select>
+                            </label>
+                            <div id="view-toggle" class="view-toggle" role="group" aria-label="Gallery layout">
+                                <button type="button" class="view-btn active" data-view="masonry" aria-pressed="true" title="Masonry — Pinterest-style columns by image size">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="7" height="11" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="12" width="7" height="9" rx="1"/><rect x="3" y="16" width="7" height="5" rx="1"/></svg>
+                                    <span class="view-btn-label">Masonry</span>
+                                </button>
+                                <button type="button" class="view-btn" data-view="comfortable" aria-pressed="false" title="Comfortable cards">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="1"/><rect x="13" y="3" width="8" height="8" rx="1"/><rect x="3" y="13" width="8" height="8" rx="1"/><rect x="13" y="13" width="8" height="8" rx="1"/></svg>
+                                    <span class="view-btn-label">Comfortable</span>
+                                </button>
+                                <button type="button" class="view-btn" data-view="compact" aria-pressed="false" title="Compact grid — more items at once">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="4" height="4" rx="0.5"/><rect x="8" y="2" width="4" height="4" rx="0.5"/><rect x="14" y="2" width="4" height="4" rx="0.5"/><rect x="20" y="2" width="2" height="4" rx="0.5"/><rect x="2" y="8" width="4" height="4" rx="0.5"/><rect x="8" y="8" width="4" height="4" rx="0.5"/><rect x="14" y="8" width="4" height="4" rx="0.5"/><rect x="20" y="8" width="2" height="4" rx="0.5"/><rect x="2" y="14" width="4" height="4" rx="0.5"/><rect x="8" y="14" width="4" height="4" rx="0.5"/><rect x="14" y="14" width="4" height="4" rx="0.5"/><rect x="20" y="14" width="2" height="4" rx="0.5"/><rect x="2" y="20" width="4" height="2" rx="0.5"/><rect x="8" y="20" width="4" height="2" rx="0.5"/><rect x="14" y="20" width="4" height="2" rx="0.5"/><rect x="20" y="20" width="2" height="2" rx="0.5"/></svg>
+                                    <span class="view-btn-label">Compact</span>
+                                </button>
+                            </div>
+                            </div>
+                        </div>
+                        <div id="status" class="status" role="status"></div>
+                    </div>
+                </div>
+
+                <div id="grid" class="asset-grid view-masonry"></div>
+                <div id="masonry-measure" class="masonry-measure" aria-hidden="true">
+                    <div id="masonry-measure-grid" class="asset-grid view-masonry"></div>
+                </div>
+                <p id="empty-state" class="empty-state hidden">No assets match your filters.</p>
+            </main>
+        </div>
+
+        <button type="button" id="scroll-top" class="scroll-top hidden" aria-label="Scroll to top">↑</button>
+
+        <div id="lightbox" class="lightbox hidden" role="dialog" aria-modal="true" aria-label="Image preview">
+            <button type="button" class="lightbox-close" aria-label="Close preview">&times;</button>
+            <img id="lightbox-img" src="" alt="">
+            <p id="lightbox-caption" class="lightbox-caption"></p>
+            <div class="lightbox-actions">
+                <button type="button" id="lightbox-copy" class="lightbox-btn">Copy URL</button>
+                <a id="lightbox-open" class="lightbox-btn lightbox-btn-outline" href="#" target="_blank" rel="noopener noreferrer">Open full size</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="gate.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
