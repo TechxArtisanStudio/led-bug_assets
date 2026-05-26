@@ -1,7 +1,7 @@
 {
-  "base_url": "https://assets.led-bugs.com",
-  "generated_at": "2026-05-26T07:58:47Z",
-  "commit": "f251f01",
+  "base_url": "https://assets.led-bug.com",
+  "generated_at": "2026-05-26T08:09:52Z",
+  "commit": "1d6bf6a",
   "stats": {
     "total": 3,
     "data": 1,
@@ -16,14 +16,14 @@
         {
           "name": ".gitkeep",
           "path": "data/.gitkeep",
-          "url": "https://assets.led-bugs.com/data/.gitkeep",
+          "url": "https://assets.led-bug.com/data/.gitkeep",
           "ext": "",
           "is_image": false,
           "folder": "data",
           "category": "data",
           "size_bytes": 0,
-          "modified_ts": 1779782283,
-          "modified_at": "2026-05-26T07:58:03Z",
+          "modified_ts": 1779782951,
+          "modified_at": "2026-05-26T08:09:11Z",
           "search_text": ".gitkeep data/.gitkeep data data",
           "alternates": []
         }
@@ -36,14 +36,14 @@
         {
           "name": ".gitkeep",
           "path": "md/.gitkeep",
-          "url": "https://assets.led-bugs.com/md/.gitkeep",
+          "url": "https://assets.led-bug.com/md/.gitkeep",
           "ext": "",
           "is_image": false,
           "folder": "md",
           "category": "md",
           "size_bytes": 0,
-          "modified_ts": 1779782283,
-          "modified_at": "2026-05-26T07:58:03Z",
+          "modified_ts": 1779782951,
+          "modified_at": "2026-05-26T08:09:11Z",
           "search_text": ".gitkeep md/.gitkeep md md",
           "alternates": []
         }
@@ -56,14 +56,14 @@
         {
           "name": ".gitkeep",
           "path": "images/.gitkeep",
-          "url": "https://assets.led-bugs.com/images/.gitkeep",
+          "url": "https://assets.led-bug.com/images/.gitkeep",
           "ext": "",
           "is_image": false,
           "folder": "(root)",
           "category": "other",
           "size_bytes": 0,
-          "modified_ts": 1779782283,
-          "modified_at": "2026-05-26T07:58:03Z",
+          "modified_ts": 1779782951,
+          "modified_at": "2026-05-26T08:09:11Z",
           "search_text": ".gitkeep images/.gitkeep root other",
           "alternates": []
         }
