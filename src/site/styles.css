@@ -155,7 +155,16 @@ body {
     box-shadow: 0 4px 14px rgba(255, 107, 53, 0.4);
 }
 
-.logout-btn {
+.header-actions {
+    position: absolute;
+    top: 14px;
+    right: 16px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.header-action-btn {
     padding: 6px 12px;
     border: 1px solid rgba(255, 255, 255, 0.55);
     border-radius: 8px;
@@ -164,10 +173,11 @@ body {
     font-size: 0.78em;
     font-weight: 500;
     cursor: pointer;
+    text-decoration: none;
     transition: background 0.2s;
 }
 
-.logout-btn:hover {
+.header-action-btn:hover {
     background: rgba(255, 255, 255, 0.25);
 }
 
@@ -189,12 +199,6 @@ body {
     text-align: center;
 }
 
-.app-header .logout-btn {
-    position: absolute;
-    top: 14px;
-    right: 16px;
-    margin: 0;
-}
 
 header,
 .app-header {

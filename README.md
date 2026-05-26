@@ -4,6 +4,8 @@ Static asset CDN and team asset browser for the LED-Bug project. Built from the 
 
 **CDN base URL:** [https://assets.led-bug.com](https://assets.led-bug.com)
 
+Public GitHub repository for the LED-Bug static asset CDN. Internal build-time tooling and team-only scripts live in the private **`lb-site-dev-tool`** repo; the public website is [**led-bug**](https://github.com/TechxArtisanStudio/led-bug).
+
 ## Overview
 
 - **Automated build pipeline**: WebP conversion, CSS/JS minification, preview thumbnails
