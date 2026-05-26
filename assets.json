@@ -1,14 +1,151 @@
 {
   "base_url": "https://assets.led-bug.com",
-  "generated_at": "2026-05-26T08:19:58Z",
-  "commit": "9d0c636",
+  "generated_at": "2026-05-26T08:21:34Z",
+  "commit": "16530a2",
   "stats": {
-    "total": 3,
+    "total": 8,
+    "images": 5,
     "data": 1,
     "md": 1,
     "other": 1
   },
   "categories": [
+    {
+      "id": "images",
+      "title": "Images",
+      "assets": [
+        {
+          "name": "cube-light",
+          "path": "images/projects/cube-light.webp",
+          "url": "https://assets.led-bug.com/images/projects/cube-light.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "projects",
+          "category": "images",
+          "size_bytes": 272836,
+          "modified_ts": 1779783643,
+          "modified_at": "2026-05-26T08:20:43Z",
+          "search_text": "cube-light images/projects/cube-light.webp projects webp images",
+          "alternates": [
+            {
+              "path": "images/projects/cube-light.jpg",
+              "url": "https://assets.led-bug.com/images/projects/cube-light.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1440,
+          "height": 1920,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/projects/cube-light.webp",
+          "thumb_bytes": 56876,
+          "thumb_width": 560,
+          "thumb_height": 747
+        },
+        {
+          "name": "led-bug",
+          "path": "images/projects/led-bug.webp",
+          "url": "https://assets.led-bug.com/images/projects/led-bug.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "projects",
+          "category": "images",
+          "size_bytes": 78656,
+          "modified_ts": 1779783643,
+          "modified_at": "2026-05-26T08:20:43Z",
+          "search_text": "led-bug images/projects/led-bug.webp projects webp images",
+          "alternates": [
+            {
+              "path": "images/projects/led-bug.jpg",
+              "url": "https://assets.led-bug.com/images/projects/led-bug.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1080,
+          "height": 1920,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/projects/led-bug.webp",
+          "thumb_bytes": 31920,
+          "thumb_width": 560,
+          "thumb_height": 996
+        },
+        {
+          "name": "matter-spectrum",
+          "path": "images/projects/matter-spectrum.webp",
+          "url": "https://assets.led-bug.com/images/projects/matter-spectrum.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "projects",
+          "category": "images",
+          "size_bytes": 245326,
+          "modified_ts": 1779783643,
+          "modified_at": "2026-05-26T08:20:43Z",
+          "search_text": "matter-spectrum images/projects/matter-spectrum.webp projects webp images",
+          "alternates": [
+            {
+              "path": "images/projects/matter-spectrum.jpg",
+              "url": "https://assets.led-bug.com/images/projects/matter-spectrum.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1920,
+          "height": 1080,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/projects/matter-spectrum.webp",
+          "thumb_bytes": 43374,
+          "thumb_width": 560,
+          "thumb_height": 315
+        },
+        {
+          "name": "mechanical-tree",
+          "path": "images/projects/mechanical-tree.webp",
+          "url": "https://assets.led-bug.com/images/projects/mechanical-tree.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "projects",
+          "category": "images",
+          "size_bytes": 101392,
+          "modified_ts": 1779783643,
+          "modified_at": "2026-05-26T08:20:43Z",
+          "search_text": "mechanical-tree images/projects/mechanical-tree.webp projects webp images",
+          "alternates": [
+            {
+              "path": "images/projects/mechanical-tree.jpg",
+              "url": "https://assets.led-bug.com/images/projects/mechanical-tree.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1920,
+          "height": 1080,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/projects/mechanical-tree.webp",
+          "thumb_bytes": 19022,
+          "thumb_width": 560,
+          "thumb_height": 315
+        },
+        {
+          "name": "moon-river",
+          "path": "images/projects/moon-river.webp",
+          "url": "https://assets.led-bug.com/images/projects/moon-river.webp",
+          "ext": ".webp",
+          "is_image": true,
+          "folder": "projects",
+          "category": "images",
+          "size_bytes": 181876,
+          "modified_ts": 1779783643,
+          "modified_at": "2026-05-26T08:20:43Z",
+          "search_text": "moon-river images/projects/moon-river.webp projects webp images",
+          "alternates": [
+            {
+              "path": "images/projects/moon-river.jpg",
+              "url": "https://assets.led-bug.com/images/projects/moon-river.jpg",
+              "ext": ".jpg"
+            }
+          ],
+          "width": 1080,
+          "height": 1920,
+          "thumb_url": "https://assets.led-bug.com/images/_thumbs/projects/moon-river.webp",
+          "thumb_bytes": 59240,
+          "thumb_width": 560,
+          "thumb_height": 996
+        }
+      ]
+    },
     {
       "id": "data",
       "title": "Data",
@@ -22,8 +159,8 @@
           "folder": "data",
           "category": "data",
           "size_bytes": 0,
-          "modified_ts": 1779783536,
-          "modified_at": "2026-05-26T08:18:56Z",
+          "modified_ts": 1779783643,
+          "modified_at": "2026-05-26T08:20:43Z",
           "search_text": ".gitkeep data/.gitkeep data data",
           "alternates": []
         }
@@ -42,8 +179,8 @@
           "folder": "md",
           "category": "md",
           "size_bytes": 0,
-          "modified_ts": 1779783536,
-          "modified_at": "2026-05-26T08:18:56Z",
+          "modified_ts": 1779783643,
+          "modified_at": "2026-05-26T08:20:43Z",
           "search_text": ".gitkeep md/.gitkeep md md",
           "alternates": []
         }
@@ -62,8 +199,8 @@
           "folder": "(root)",
           "category": "other",
           "size_bytes": 0,
-          "modified_ts": 1779783536,
-          "modified_at": "2026-05-26T08:18:56Z",
+          "modified_ts": 1779783643,
+          "modified_at": "2026-05-26T08:20:43Z",
           "search_text": ".gitkeep images/.gitkeep root other",
           "alternates": []
         }
